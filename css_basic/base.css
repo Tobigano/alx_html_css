@@ -1,0 +1,28 @@
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header,
+main,
+footer {
+    padding: 1rem;
+}
+
+a {
+    color: #2e86de;
+}
+
+a:hover {
+    text-decoration: underline;
+}
