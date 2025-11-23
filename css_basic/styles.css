@@ -19,6 +19,7 @@ header ul {
     background-color: #222;
     display: flex;
     gap: 20px;
+    align-items: center; /* ensures logo aligns properly */
 }
 
 header ul li a {
@@ -29,6 +30,14 @@ header ul li a {
 
 header ul li a:hover {
     text-decoration: underline;
+}
+
+/* Logo styling (optional, but recommended) */
+.logo {
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
 }
 
 /* Main layout */
@@ -43,7 +52,6 @@ main {
 article {
     flex: 2;                      /* ALX Requirement */
     overflow-y: auto;             /* ALX Requirement */
-
     padding-right: 20px;
 }
 
@@ -51,7 +59,6 @@ article {
 aside {
     flex: 1;                      /* ALX Requirement */
     overflow-y: auto;             /* ALX Requirement */
-
     background-color: #fff;
     padding: 15px;
     border-left: 2px solid #ccc;
