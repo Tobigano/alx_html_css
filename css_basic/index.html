@@ -3,82 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Portfolio</title>
-
-    <!-- Required CSS Links -->
-    <link href="base.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <title>ALX Flexbox Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="works_on_smartphone">
 
-<header>
-    <ul>
-        <li class="logo">&#9733;</li> <!-- Logo added here -->
-        <li><a href="index.html">Home</a></li>
-        <li><a href="tweets.html">Tweets</a></li>
-    </ul>
-</header>
+    <!-- HEADER -->
+    <header>
+        <ul>
+            <!-- Unicode logo (example: black star ★) -->
+            <li class="logo">&#9733;</li>
 
-<main>
-    <article>
-        <h1>Welcome to My Portfolio</h1>
-        <h2>About This Page</h2>
-        <h3>Introduction</h3>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
 
-        <p>This is my first HTML project where I am learning the basics of web development.</p>
-        <p>I am practicing how to structure content properly using HTML tags.</p>
-        <p>This page contains headings, paragraphs, and a clickable image.</p>
-        <p>HTML is the foundation of all web pages, and this is my starting point.</p>
+    <!-- MAIN -->
+    <main>
+        <!-- ARTICLE SECTION -->
+        <article>
+            <h1>Welcome to My Flexbox Page</h1>
+            <p>
+                This page demonstrates the ALX-required Flexbox layout using an article and aside.
+                The layout becomes responsive when viewed on a smartphone thanks to the 
+                "works_on_smartphone" class and the viewport meta tag.
+            </p>
 
-        <a href="https://www.alxafrica.com/" target="_blank">
-            <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo">
-        </a>
-
-        <!-- Learners Table -->
-        <table>
-            <thead>
+            <h2>Sample Table</h2>
+            <table>
                 <tr>
                     <th>Name</th>
-                    <th>Age</th>
-                    <th>Country</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>John</td>
-                    <td>25</td>
-                    <td>USA</td>
+                    <th>Role</th>
                 </tr>
                 <tr>
-                    <td>Emily</td>
-                    <td>28</td>
-                    <td>Canada</td>
+                    <td>Tobi</td>
+                    <td>Frontend Developer</td>
                 </tr>
                 <tr>
-                    <td>Michael</td>
-                    <td>32</td>
-                    <td>Australia</td>
+                    <td>Grace</td>
+                    <td>Backend Engineer</td>
                 </tr>
-                <tr>
-                    <td>Sophia</td>
-                    <td>21</td>
-                    <td>UK</td>
-                </tr>
-            </tbody>
-        </table>
-    </article>
+            </table>
 
-    <aside>
-        <p>placeholder to add comment thread later</p>
-    </aside>
-</main>
+            <h2>Sample Image</h2>
+            <img src="https://via.placeholder.com/200" alt="Sample image">
+        </article>
 
-<footer>
-    <p>Made by Akinde Korede -
-        <a href="https://github.com/Tobigano" target="_blank">here</a>
-    </p>
-</footer>
+        <!-- ASIDE SECTION -->
+        <aside>
+            <h2>Sidebar Info</h2>
+            <p>This is the sidebar content. It scrolls independently from the article.</p>
+        </aside>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 My ALX Flexbox Page</p>
+    </footer>
 
 </body>
 </html>
